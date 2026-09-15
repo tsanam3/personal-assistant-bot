@@ -1,0 +1,8 @@
+python-telegram-bot==20.7
+supabase==2.3.4
+python-dotenv==1.0.0
+# Pinned transitive deps required for a consistent install on Python 3.11.
+# supabase==2.3.4 otherwise resolves gotrue>=2.6 which needs httpx>=0.27,
+# conflicting with the httpx<0.26 that supabase/ptb require (runtime crash).
+gotrue==2.5.1
+httpx==0.25.2

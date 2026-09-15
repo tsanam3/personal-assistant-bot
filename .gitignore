@@ -1,0 +1,43 @@
+# --- Secrets (NEVER commit real credentials) ---
+.env
+.env.*
+!.env.example
+
+# --- Python bytecode / caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+
+# --- Testing / linting caches ---
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+
+# --- Logs ---
+*.log
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# --- Local databases ---
+*.sqlite3
+*.db
+
